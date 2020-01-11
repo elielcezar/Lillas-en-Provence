@@ -1,0 +1,29 @@
+
+.woocommerce-cart{
+  form.woocommerce-cart-form{
+    width: 62%;
+    float: left;
+  }
+  .cart-collaterals{
+    width: 35%;
+    float: right;
+    padding: 0;
+    margin: 0;
+
+    .cart_totals {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    #calc_shipping_country_field,
+    #calc_shipping_state_field,
+    #calc_shipping_city_field{
+      display: none !important;
+    }
+
+  }
+}
+
+.woocommerce div.product form.cart .variations{
+  margin-bottom: 0;
+}

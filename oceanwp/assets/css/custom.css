@@ -1,0 +1,27 @@
+.woocommerce-cart form.woocommerce-cart-form {
+  width: 62%;
+  float: left;
+}
+
+.woocommerce-cart .cart-collaterals {
+  width: 35%;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.woocommerce-cart .cart-collaterals #calc_shipping_country_field,
+.woocommerce-cart .cart-collaterals #calc_shipping_state_field,
+.woocommerce-cart .cart-collaterals #calc_shipping_city_field {
+  display: none !important;
+}
+
+.woocommerce div.product form.cart .variations {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=custom.css.map */
